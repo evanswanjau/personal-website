@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Mzahir Properties",
+    "desc": "A modern, responsive web application built for a real estate client to elegantly showcase their property listings. Features an intuitive search and filter system, real-time property updates via Firebase, and a sleek interface styled with Tailwind CSS and Shadcn/UI components.",
+    "tech": "Vite, React, TypeScript, Tailwind CSS, Framer Motion, Shadcn/UI, Firebase",
+    "tags": [
+      "Vite",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Shadcn/UI",
+      "Framer Motion",
+      "Firebase"
+    ],
+    "liveLink": "https://dev.mzahirproperties.com",
+    "repoLink": "https://github.com/evanswanjau/mzahir-properties",
+    "year": "2025"
+  },
+  {
+    "name": "Personal Website",
+    "desc": "A sleek, modern personal portfolio website designed to showcase my expertise as a Full Stack Developer with over 12 years of experience. This dynamic platform highlights my professional journey, featuring an interactive display of projects, technical skills, and blog insights.",
+    "tech": "Vite, React, TypeScript, Tailwind CSS, Framer Motion, Shadcn/UI, Netlify",
+    "tags": [
+      "Vite",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Shadcn/UI",
+      "Netlify"
+    ],
+    "liveLink": "https://evanswanjau.netlify.app",
+    "repoLink": "https://github.com/evanswanjau/portfolio",
+    "year": "2025"
+  },
+  {
+    "name": "VideoHub",
+    "desc": "VideoHub is a versatile, user-friendly video-sharing platform that empowers creators to upload, manage, and share their content while providing viewers with a seamless, high-quality watching experience.",
+    "tech": "React, Typescript, Node.js, Express, MongoDB, Docker, AWS S3, Tailwind CSS, FFmpeg",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Docker",
+      "Tailwind CSS",
+      "FFmpeg"
+    ],
+    "liveLink": "https://video-app-9brf.onrender.com/",
+    "repoLink": "",
+    "year": "2024"
+  },
+  {
+    "name": "QuantDisco",
+    "desc": "QuantDisco is a powerful sales calculator and management platform designed to streamline revenue tracking and business analytics for small to medium-sized enterprises.",
+    "tech": "React, TypeScript, Tailwind CSS, Vite, Firebase, Recharts",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Firebase",
+      "Recharts"
+    ],
+    "liveLink": "https://quantdisco.vercel.app/",
+    "repoLink": "",
+    "year": "2024"
+  },
+  {
+    "name": "Onima",
+    "desc": "Onima Dashboard is an analytics and management platform built for Onima, a UK-based global music distribution, publishing company. Designed to empower independent artists and labels, this dashboard centralizes the management of music catalogues.",
+    "tech": "React, TypeScript, Node.js, Nest.js, PostgreSQL, Mui,  Docker, Firebase, AWS",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Mui",
+      "Docker",
+      "Firebase",
+      "AWS"
+    ],
+    "liveLink": "https://onima.co",
+    "repoLink": "",
+    "year": "2023"
+  },
+
+  {
+    "name": "CCAK",
+    "desc": "CCAK is a dynamic website and content management system (CMS) platform developed to support a non-profit initiative promoting sustainable cooking solutions. Built from the ground up, this platform enables administrators to manage articles, resources, and member directories through an intuitive custom CMS platform.",
+    "tech": "React, TypeScript, Python, Django, PostgreSQL, Tailwind CSS, Firebase",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Firebase"
+    ],
+    "liveLink": "https://ccak.or.ke",
+    "repoLink": "",
+    "year": "2022"
+  },
+  {
+    "name": "AIS",
+    "desc": "Aquaculture Information System is a robust, real-time platform designed to enhance aquaculture management for farmers and researchers. This full-stack solution integrates IoT data streams with a Node.js backend to monitor water quality, fish health, and production metrics, delivering actionable insights through a React-based dashboard. Key features include live data visualization with Chart.js, secure user authentication via JWT, and real-time updates powered by Socket.io, ensuring scalability for large-scale operations. I engineered the system to support end-to-end encryption for sensitive data and seamless integration with MongoDB for efficient storage and retrieval. AIS empowers aquaculture professionals to optimize yields, reduce environmental impact, and make data-driven decisions, showcasing my ability to tackle complex, industry-specific challenges.",
+    "tech": "React, Node.js, Express, MongoDB, Socket.io, JWT, Chart.js, Tailwind CSS",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+      "Chart.js",
+      "Tailwind CSS"
+    ],
+    "liveLink": "https://aquaculture-system.example.com",
+    "repoLink": "https://github.com/evanswanjau/aquaculture-info-system",
+    "year": "2025"
+  },
+  {
+    "name": "WapiDoc",
+    "desc": "WapiDoc is a comprehensive healthcare directory platform designed to connect patients with medical professionals and facilities efficiently. Built as a full-stack application, it features a React frontend for a smooth user experience and a Node.js backend with PostgreSQL for reliable data management. I developed a searchable directory with advanced filtering (by specialty, location, and availability), real-time updates via WebRTC for telehealth integration, and secure user profiles with authentication powered by JWT. The platform leverages Monaco Editor for an admin interface to manage listings and Redis for caching to ensure fast load times. WapidDoc demonstrates my ability to deliver a scalable, user-centric solution tailored to the healthcare industry, enhancing accessibility and streamlining provider-patient interactions.",
+    "tech": "React, Node.js, Express, PostgreSQL, WebRTC, Monaco Editor, Redis, JWT, Tailwind CSS",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "WebRTC",
+      "Monaco Editor",
+      "Redis",
+      "JWT",
+      "Tailwind CSS"
+    ],
+    "liveLink": "https://wapidoc.com",
+    "repoLink": "",
+    "year": "2025"
+  }
+]
