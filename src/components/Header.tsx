@@ -60,7 +60,7 @@ export const Header = () => {
 
   return (
     <motion.nav
-      className="fixed top-0 left-0 w-full z-40 border-b border-gray-200"
+      className="fixed top-0 left-0 w-full z-40 border-b border-gray-200 backdrop-blur-md"
       initial={{ y: 0 }}
       animate={{ y: isHeaderVisible ? 0 : -80 }}
       transition={{ duration: 0.3 }}
@@ -70,7 +70,7 @@ export const Header = () => {
           to="/"
           className="text-2xl font-semibold text-gray-800 flex items-center gap-2"
         >
-          <img src="logo.png" className="w-12" />
+          <img src="/logo.png" className="w-12" />
         </Link>
 
         <div className="flex space-x-8">
