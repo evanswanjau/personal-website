@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
-import { Header } from "@/components/header";
-import { FooterSection } from "@/components/footer";
+import { Header } from "@/components/Header";
+import { FooterSection } from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
 import BlogPage from "@/pages/BlogPage";
+import TagPage from "@/pages/TagPage";
 import TermsAndConditionsPage from "@/pages/TermsAndConditionsPage";
 import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
+import BlogPostDetail from "@/pages/BlogPostDetailPage";
 
 function App() {
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostDetail />} />
+        <Route path="/blog/tags/:tag" element={<TagPage />} />
         <Route
           path="/terms-and-conditions"
           element={<TermsAndConditionsPage />}

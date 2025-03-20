@@ -134,3 +134,48 @@ h5,
 h6 {
   font-family: "Lexend", sans-serif;
 }
+
+
+/* Add these styles to your global CSS file or create a separate blog.css */
+
+/* Code blocks with inline code */
+.prose code:not(pre code) {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+/* Dark mode for inline code */
+.dark .prose code:not(pre code) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Improve heading spacing */
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.prose h1:first-child, .prose h2:first-child, .prose h3:first-child {
+  margin-top: 0;
+}
+
+/* Improve list spacing */
+.prose ul, .prose ol {
+  margin-bottom: 1.5em;
+}
+
+/* Code blocks scrolling behavior */
+.prose pre {
+  white-space: pre;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Add subtle border to images */
+.prose img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
