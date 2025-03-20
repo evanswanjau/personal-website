@@ -2,54 +2,9 @@ import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { FaTag, FaArrowRight, FaCalendarAlt } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import blogData from "@/db/blogs.json";
 
 export const BlogSection = () => {
-  const posts = [
-    {
-      title: "Mastering React Hooks in 2025",
-      desc: "A deep dive into leveraging React Hooks for state management and side effects, exploring useEffect, useMemo, and custom hooks with practical examples for modern web apps.",
-      tags: ["React", "Frontend", "JavaScript"],
-      date: "March 10, 2025",
-      link: "#",
-    },
-    {
-      title: "Scaling Node.js with Microservices",
-      desc: "Lessons learned from deploying Node.js applications using a microservices architecture, including strategies for load balancing, service communication, and fault tolerance.",
-      tags: ["Node.js", "Backend", "Microservices"],
-      date: "February 25, 2025",
-      link: "#",
-    },
-    {
-      title: "TypeScript: Beyond Basics",
-      desc: "An advanced guide to TypeScript, covering complex types, generics, and utility types to write safer, more maintainable code in large-scale projects.",
-      tags: ["TypeScript", "Languages", "Development"],
-      date: "January 15, 2025",
-      link: "#",
-    },
-    {
-      title: "Building Accessible UIs with Radix",
-      desc: "How to use Radix UI primitives to create inclusive, accessible user interfaces that meet WCAG standards, with real-world examples and testing tips.",
-      tags: ["Accessibility", "Frontend", "Radix"],
-      date: "December 20, 2024",
-      link: "#",
-    },
-    {
-      title: "Vite vs. Webpack: A Comparison",
-      desc: "A detailed comparison of Vite and Webpack, analyzing build speed, developer experience, and use cases to determine why Vite is gaining traction in 2025.",
-      tags: ["Vite", "Webpack", "Tools"],
-      date: "November 5, 2024",
-      link: "#",
-    },
-    {
-      title: "AI in Web Development",
-      desc: "Exploring the role of AI in shaping web development, from code generation with tools like GitHub Copilot to AI-driven UX personalization trends.",
-      tags: ["AI", "Web Development", "Future Tech"],
-      date: "October 12, 2024",
-      link: "#",
-    },
-  ];
-
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -99,13 +54,13 @@ export const BlogSection = () => {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 gap-12"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          {posts.map((post, index) => (
+          {blogData.slice(0, 3).map((post, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
