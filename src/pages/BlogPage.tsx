@@ -34,7 +34,7 @@ export const BlogPage = () => {
           viewport={{ once: true, margin: "-100px" }}
           className="mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-3 leading-relaxed bg-gradient-to-r from-blue-700 to-blue-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-3 leading-relaxed text-gray-800">
             Blog
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl">

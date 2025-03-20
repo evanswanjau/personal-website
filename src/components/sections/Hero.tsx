@@ -8,14 +8,8 @@ export const HeroSection = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 to-gray-100"
+      className="min-h-screen flex items-center relative overflow-hidden bg-white"
     >
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-blue-200/40 blur-3xl" />
-        <div className="absolute top-40 -right-20 w-80 h-80 rounded-full bg-blue-300/30 blur-3xl" />
-        <div className="absolute bottom-20 left-60 w-72 h-72 rounded-full bg-blue-200/50 blur-3xl" />
-      </div>
-
       <div className="max-w-6xl mx-auto px-6 py-16 z-10 relative w-full flex flex-col justify-center min-h-screen">
         <motion.div
           className="max-w-3xl"
@@ -28,13 +22,13 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
-            <Badge className="mb-4 bg-blue-200 text-blue-700 hover:bg-blue-300 font-medium py-1.5 px-3 rounded-full transition-all delay-100">
+            <Badge className="mb-4 bg-gray-200 text-gray-700 font-medium py-1.5 px-3 rounded-full">
               Full Stack Developer
             </Badge>
           </motion.div>
 
           <motion.h1
-            className="text-5xl md:text-7xl font-bold tracking-tight leading-tight bg-gradient-to-r from-blue-700 via-blue-500 to-blue-800 text-transparent bg-clip-text"
+            className="text-5xl md:text-7xl font-bold tracking-tight leading-tight text-gray-800"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
@@ -43,7 +37,7 @@ export const HeroSection = () => {
           </motion.h1>
 
           <motion.p
-            className="text-lg md:text-xl mt-6 max-w-2xl text-gray-600 font-light leading-relaxed"
+            className="text-lg md:text-xl mt-6 max-w-2xl text-gray-600 leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
@@ -61,14 +55,15 @@ export const HeroSection = () => {
           >
             <Button
               asChild
-              className="bg-blue-700 text-white hover:bg-blue-800 transition-all delay-100 py-6 px-8 shadow-none hover:-translate-y-1"
+              variant={"default"}
+              className="border border-gray-900 bg-gray-900 text-white hover:bg-gray-800 transition-all p-5 delay-200 shadow-none"
             >
               <a href="#projects">View My Work</a>
             </Button>
             <Button
               variant="outline"
               asChild
-              className="border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition-all delay-100 py-6 px-8 shadow-none hover:-translate-y-1"
+              className="border-gray-900 text-gray-800 hover:bg-gray-900 hover:text-white transition-all delay-200 p-5 px-5 shadow-none"
             >
               <a href="/cv.pdf" download>
                 Download CV
@@ -89,7 +84,7 @@ export const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
-                className="text-gray-600 hover:text-blue-800 transition-colors"
+                className="text-gray-600 hover:text-gray-800 transition-colors"
               >
                 <FaGithub size={20} />
               </motion.a>
@@ -98,7 +93,7 @@ export const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
-                className="text-gray-600 hover:text-blue-800 transition-colors"
+                className="text-gray-600 hover:text-gray-800 transition-colors"
               >
                 <FaLinkedin size={20} />
               </motion.a>
@@ -107,7 +102,7 @@ export const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
-                className="text-gray-600 hover:text-blue-800 transition-colors"
+                className="text-gray-600 hover:text-gray-800 transition-colors"
               >
                 <FaXTwitter size={20} />
               </motion.a>

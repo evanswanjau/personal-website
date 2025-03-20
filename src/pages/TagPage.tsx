@@ -14,7 +14,6 @@ interface BlogPost {
 export const TagPage = () => {
   const { tag } = useParams<{ tag: string }>();
 
-  // Filter posts based on tag
   const filteredPosts: BlogPost[] = tag
     ? blogData.filter((post: BlogPost) =>
         post.tags.some(
@@ -46,7 +45,7 @@ export const TagPage = () => {
           viewport={{ once: true, margin: "-100px" }}
           className="mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-3 leading-relaxed bg-gradient-to-r from-blue-700 to-blue-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-3 leading-relaxed text-gray-800">
             Blog Posts Tagged: {tag}
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl">
@@ -54,7 +53,7 @@ export const TagPage = () => {
           </p>
           <a
             href="/blog"
-            className="mt-4 text-blue-600 hover:text-blue-700 font-semibold transition-colors flex items-center gap-2 cursor-pointer"
+            className="mt-4 text-gray-600 hover:text-gray-800 font-semibold transition-colors flex items-center gap-2 cursor-pointer"
             aria-label="Back to all posts"
           >
             <span>←</span> Back to all posts
@@ -76,11 +75,11 @@ export const TagPage = () => {
         ) : (
           <div className="text-center py-12">
             <p className="text-xl text-gray-400">
-              No posts found with the tag <b>"{tag}"</b>
+              No posts found with the tag <b className="text-gray-600">"{tag}"</b>
             </p>
             <a
               href="/blog"
-              className="mt-4 text-blue-600 hover:text-blue-700 font-semibold transition-colors inline-flex items-center gap-2 cursor-pointer"
+              className="mt-4 text-gray-600 hover:text-gray-800 font-semibold transition-colors inline-flex items-center gap-2 cursor-pointer"
               aria-label="Back to all posts"
             >
               <span>←</span> Back to all posts

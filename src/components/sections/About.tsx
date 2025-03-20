@@ -11,17 +11,17 @@ const AboutSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: "-100px" }}
         >
-          <div className="w-[60%]">
+          <div className="w-[70%]">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <Badge className="mb-4 bg-blue-200 text-blue-700 hover:bg-blue-300 font-medium py-1.5 px-3 rounded-full transition-all delay-100">
+              <Badge className="mb-4 bg-gray-200 text-gray-700 font-medium py-1.5 px-3 rounded-full">
                 About Me
               </Badge>
-              <h2 className="text-5xl md:text-4xl mb-5 font-bold tracking-tight leading-tight bg-gradient-to-r from-blue-700 via-blue-500 to-blue-800 text-transparent bg-clip-text">
+              <h2 className="text-4xl md:text-5xl mb-5 font-bold tracking-tight leading-tight text-gray-800">
                 Professional Full Stack Developer with a Focus on Modern Web
                 Technologies
               </h2>
@@ -57,13 +57,13 @@ const AboutSection = () => {
           </div>
 
           <motion.div
-            className="w-[40%] flex items-center"
+            className="w-[30%] flex items-center"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <img src="/image.png" className="rounded-full w-full bg-cover" />
+            <img src="/face-potraight.png" className="rounded-full w-full bg-cover" />
           </motion.div>
         </motion.div>
       </div>

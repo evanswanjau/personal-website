@@ -75,7 +75,7 @@ const BlogPostDetail = () => {
         <div className="flex flex-wrap gap-2 mb-8">
           {post.tags.map((tag) => (
             <a href={`/blog/tags/${tag.toLowerCase()}`} key={tag}>
-              <Badge className="bg-blue-50 text-gray-500 hover:bg-blue-700 hover:text-white cursor-pointer group-hover:text-gray-800 transition-all duration-100 font-normal px-3 py-1 rounded-full">
+              <Badge className="bg-gray-100 text-gray-500 hover:bg-gray-800 hover:text-white cursor-pointer transition-all duration-300 font-normal px-3 py-1">
                 <FaTag className="h-3 w-3 mr-1" />
                 {tag}
               </Badge>
