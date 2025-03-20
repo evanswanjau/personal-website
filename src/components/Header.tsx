@@ -70,7 +70,7 @@ export const Header = () => {
           to="/"
           className="text-2xl font-semibold text-gray-800 flex items-center gap-2"
         >
-          <img src="/logo.png" className="w-12" />
+          <img src="logo.png" className="w-12" />
         </Link>
 
         <div className="flex space-x-8">
