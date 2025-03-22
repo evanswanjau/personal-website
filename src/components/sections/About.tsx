@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 bg-white relative">
+    <section id="about" className="py-24 bg-gray-50 relative">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           className="flex flex-col md:flex-row gap-16"
@@ -63,7 +63,7 @@ const AboutSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <img src="/face-potraight.png" className="rounded-full w-full bg-cover" />
+            <img src="/image.png" className="rounded-full w-full bg-cover" />
           </motion.div>
         </motion.div>
       </div>
