@@ -65,12 +65,21 @@ export const Header = () => {
       animate={{ y: isHeaderVisible ? 0 : -80 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center group">
         <Link
           to="/"
           className="text-2xl font-semibold text-gray-800 flex items-center gap-2"
         >
-          <img src="/logo.png" className="w-12" />
+          <div className="relative w-14 h-14 overflow-hidden">
+            <img
+              src="/logo.png"
+              className="w-12 absolute top-0 left-0 transition-all duration-100 ease-in-out"
+            />
+            <img
+              src="/logo-switch.png"
+              className="w-12 absolute top-0 left-0 opacity-0 transition-all duration-100 ease-in-out"
+            />
+          </div>
         </Link>
 
         <div className="flex space-x-8">

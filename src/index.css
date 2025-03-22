@@ -179,3 +179,22 @@ h6 {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Enhanced transition for the logo switch */
+.relative:hover img:first-child {
+  opacity: 0;
+  filter: blur(3px);
+  transform: scale(0.95);
+}
+
+.relative:hover img:last-child {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+/* Initial state for second logo */
+.relative img:last-child {
+  filter: blur(3px);
+  transform: scale(0.95);
+}
