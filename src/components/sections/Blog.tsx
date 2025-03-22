@@ -17,7 +17,7 @@ export const BlogSection = () => {
   };
 
   return (
-    <section id="blogs" className="py-24 relative overflow-hidden font-outfit">
+    <section id="blogs" className="py-24 relative overflow-hidden font-outfit bg-white">
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
