@@ -8,13 +8,13 @@ export const FooterSection = () => {
         <p className="text-gray-400 text-sm flex justify-center space-x-8">
           <span>© 2025 Evans Wanjau</span>
           <a
-            href="terms-and-conditions"
+            href="/terms-and-conditions"
             className="text-gray-400 hover:text-gray-800"
           >
             Terms & Conditions
           </a>
           <a
-            href="privacy-policy"
+            href="/privacy-policy"
             className="text-gray-400 hover:text-gray-800"
           >
             Privacy Policy
