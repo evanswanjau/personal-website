@@ -9,13 +9,13 @@ export const FooterSection = () => {
           <span>© 2025 Evans Wanjau</span>
           <a
             href="terms-and-conditions"
-            className="text-gray-400 hover:text-blue-700"
+            className="text-gray-400 hover:text-gray-800"
           >
             Terms & Conditions
           </a>
           <a
             href="privacy-policy"
-            className="text-gray-400 hover:text-blue-700"
+            className="text-gray-400 hover:text-gray-800"
           >
             Privacy Policy
           </a>
@@ -25,7 +25,7 @@ export const FooterSection = () => {
             href="https://github.com/evanswanjau"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-800 transition-colors"
+            className="text-gray-600 hover:text-gray-800 transition-colors"
           >
             <FaGithub />
           </a>
@@ -33,7 +33,7 @@ export const FooterSection = () => {
             href="https://www.linkedin.com/in/evanswanjau"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-800 transition-colors"
+            className="text-gray-600 hover:text-gray-800 transition-colors"
           >
             <FaLinkedin />
           </a>
@@ -41,7 +41,7 @@ export const FooterSection = () => {
             href="https://x.com/evanswanjau"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-800 transition-colors"
+            className="text-gray-600 hover:text-gray-800 transition-colors"
           >
             <FaXTwitter />
           </a>
