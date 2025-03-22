@@ -55,12 +55,12 @@
   {
     "name": "QuantDisco",
     "desc": "QuantDisco is a powerful sales calculator and management platform designed to streamline revenue tracking and business analytics for small to medium-sized enterprises.",
-    "tech": "React, TypeScript, Tailwind CSS, Vite, Firebase, Recharts",
+    "tech": "React, TypeScript, Vite, Tailwind CSS,  Firebase, Recharts",
     "tags": [
       "React",
       "TypeScript",
-      "Tailwind CSS",
       "Vite",
+      "Tailwind CSS",
       "Firebase",
       "Recharts"
     ],
@@ -107,7 +107,7 @@
   },
   {
     "name": "AIS",
-    "desc": "Aquaculture Information System is a robust, real-time platform designed to enhance aquaculture management for farmers and researchers. This full-stack solution integrates IoT data streams with a Node.js backend to monitor water quality, fish health, and production metrics, delivering actionable insights through a React-based dashboard. Key features include live data visualization with Chart.js, secure user authentication via JWT, and real-time updates powered by Socket.io, ensuring scalability for large-scale operations. I engineered the system to support end-to-end encryption for sensitive data and seamless integration with MongoDB for efficient storage and retrieval. AIS empowers aquaculture professionals to optimize yields, reduce environmental impact, and make data-driven decisions, showcasing my ability to tackle complex, industry-specific challenges.",
+    "desc": "Aquaculture Information System is a robust, real-time platform designed to enhance aquaculture management for farmers and researchers. This full-stack solution integrates IoT data streams with a Node.js backend to monitor water quality, fish health, and production metrics, delivering actionable insights through a React-based dashboard.",
     "tech": "React, Node.js, Express, MongoDB, Socket.io, JWT, Chart.js, Tailwind CSS",
     "tags": [
       "React",
@@ -125,7 +125,7 @@
   },
   {
     "name": "WapiDoc",
-    "desc": "WapiDoc is a comprehensive healthcare directory platform designed to connect patients with medical professionals and facilities efficiently. Built as a full-stack application, it features a React frontend for a smooth user experience and a Node.js backend with PostgreSQL for reliable data management. I developed a searchable directory with advanced filtering (by specialty, location, and availability), real-time updates via WebRTC for telehealth integration, and secure user profiles with authentication powered by JWT. The platform leverages Monaco Editor for an admin interface to manage listings and Redis for caching to ensure fast load times. WapidDoc demonstrates my ability to deliver a scalable, user-centric solution tailored to the healthcare industry, enhancing accessibility and streamlining provider-patient interactions.",
+    "desc": "WapiDoc is a comprehensive healthcare directory platform designed to connect patients with medical professionals and facilities efficiently. Built as a full-stack application, it features a React frontend for a smooth user experience and a Node.js backend with PostgreSQL for reliable data management.",
     "tech": "React, Node.js, Express, PostgreSQL, WebRTC, Monaco Editor, Redis, JWT, Tailwind CSS",
     "tags": [
       "React",
