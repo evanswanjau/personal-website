@@ -65,7 +65,7 @@ export const HeroSection = () => {
               asChild
               className="border-gray-900 text-gray-800 hover:bg-gray-900 hover:text-white transition-all delay-200 p-5 px-5 shadow-none"
             >
-              <a href="/cv.pdf" download>
+              <a href="/Evans-Wanjau-CV.pdf" download>
                 Download CV
               </a>
             </Button>
