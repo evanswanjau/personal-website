@@ -252,7 +252,7 @@ const ExperienceSection = () => {
     <section
       id="experience"
       ref={sectionRef}
-      className="py-24 bg-gray-50 relative"
+      className="py-24 bg-white relative"
     >
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
