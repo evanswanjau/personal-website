@@ -37,7 +37,7 @@ export const HeroSection = () => {
           </motion.h1>
 
           <motion.p
-            className="text-lg md:text-xl mt-6 max-w-2xl text-gray-600 leading-relaxed"
+            className="text-lg mt-6 max-w-2xl text-gray-500 leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}

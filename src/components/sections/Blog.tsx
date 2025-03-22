@@ -32,7 +32,7 @@ export const BlogSection = () => {
           <h2 className="text-4xl md:text-5xl mb-5 font-bold tracking-tight leading-tight text-gray-800">
             Thoughts & Articles
           </h2>
-          <p className="text-lg text-gray-400 max-w-2xl">
+          <p className="text-lg text-gray-500 max-w-2xl">
             My latest ideas, guides, and reflections on web development,
             programming practices, and technology trends.
           </p>

@@ -23,7 +23,7 @@ const enhanceHtml = (html: string) => {
       /<h([1-6])>(.*?)<\/h\1>/g,
       '<h$1 class="mb-6 text-gray-800 font-semibold">$2</h$1>'
     )
-    .replace(/<p>(.*?)<\/p>/g, '<p class="mb-4 text-gray-500">$1</p>')
+    .replace(/<p>(.*?)<\/p>/g, '<p class="mb-4 text-lg text-gray-500">$1</p>')
     .replace(
       /<pre><code>(.*?)<\/code><\/pre>/gs,
       '<pre class="bg-gray-100 dark:bg-gray-800 p-4 rounded-md my-6 overflow-x-auto"><code class="font-mono text-sm">$1</code></pre>'

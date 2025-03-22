@@ -46,7 +46,7 @@ export const BlogPage = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-3 leading-relaxed text-gray-800">
             Blog
           </h2>
-          <p className="text-lg text-gray-400 max-w-2xl">
+          <p className="text-lg text-gray-500 max-w-2xl">
             My latest ideas, guides, and reflections on web development,
             programming practices, and technology trends.
           </p>

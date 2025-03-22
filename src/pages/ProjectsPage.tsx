@@ -111,7 +111,7 @@ export const ProjectsPage = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-relaxed text-gray-900">
             Projects
           </h2>
-          <p className="text-gray-400 max-w-2xl mb-12 text-lg">
+          <p className="text-gray-500 max-w-2xl mb-12 text-lg">
             Explore my diverse portfolio, showcasing a wide range of projects
             across various technologies and industries, highlighting innovative
             solutions and technical expertise.

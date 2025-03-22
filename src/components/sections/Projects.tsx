@@ -114,7 +114,7 @@ export const ProjectsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-relaxed text-gray-800">
             Featured Works
           </h2>
-          <p className="text-gray-600 max-w-3xl mb-12">
+          <p className="text-lg text-gray-500 max-w-3xl mb-12">
             Explore my diverse portfolio, showcasing a wide range of projects
             across various technologies and industries, highlighting innovative
             solutions and technical expertise.

@@ -22,13 +22,13 @@ const AboutSection = () => {
                 About Me
               </Badge>
               <h2 className="text-4xl md:text-5xl mb-5 font-bold tracking-tight leading-tight text-gray-800">
-                Professional Full Stack Developer with a Focus on Modern Web
+                Full Stack Developer with a Focus on Modern Web
                 Technologies
               </h2>
             </motion.div>
 
             <motion.div
-              className="space-y-6 text-gray-600"
+              className="space-y-6 text-gray-500"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -36,16 +36,19 @@ const AboutSection = () => {
             >
               <p className="text-lg leading-relaxed">
                 I'm Evans Wanjau, a Full Stack Developer with over 12 years of
-                experience, based in Nairobi, Kenya. My career is built on
-                delivering robust, scalable solutions for industries like
-                healthcare, e-commerce, and education, often leading distributed
-                teams to achieve exceptional results.
+                experience, based in Nairobi, Kenya. I specialize in developing
+                scalable, high-performance solutions across industries such as
+                healthcare, e-commerce, and education. With a strong background
+                in leading distributed teams, I have successfully delivered
+                complex projects that drive innovation and efficiency.
               </p>
               <p className="text-lg leading-relaxed">
-                I specialize in modern JavaScript frameworks—React, Node.js,
-                TypeScript—and have a knack for enhancing user experiences,
-                optimizing performance, and ensuring compliance with software
-                standards. .
+                My technical expertise includes modern JavaScript frameworks
+                such as React, Node.js, and TypeScript, with a focus on
+                optimizing user experiences, enhancing system performance, and
+                ensuring compliance with industry standards. I am also
+                well-versed in cloud technologies and best practices in software
+                architecture.
               </p>
               <p className="text-lg leading-relaxed">
                 Beyond code, I'm passionate about staying ahead in tech, diving
