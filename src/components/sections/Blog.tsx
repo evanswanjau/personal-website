@@ -24,7 +24,6 @@ export const BlogSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: "-100px" }}
-          className="mb-16"
         >
           <Badge className="mb-4 bg-gray-200 text-gray-700 font-medium py-1.5 px-3 rounded-full">
             Blog
@@ -51,7 +50,7 @@ export const BlogSection = () => {
         </motion.div>
 
         <motion.div
-          className="mt-24 mb-12 text-center px-4"
+          className="mt-24 text-center px-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}

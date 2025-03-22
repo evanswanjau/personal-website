@@ -1,0 +1,129 @@
+[
+  {
+    "company": "RemoteMore",
+    "period": "Sep 2023 – Dec 2024",
+    "role": "Full Stack Developer",
+    "description": [
+      "Led front-end development for QuantDico and Onima Projects, converting Figma designs into pixel-perfect webpages with React.js across 30 screens.",
+      "Improved Onima's user engagement by 35% through animations, SEO optimizations, and performance enhancements for faster load times.",
+      "Collaborated with designers, testers, and back-end developers to deliver sprints with a 90% success rate, ensuring timely project completion.",
+      "Mentored junior developers and conducted code reviews to maintain high-quality deliverables and foster team growth."
+    ],
+    "technologies": [
+      "React.js",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "Jest",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "company": "WapiDoc",
+    "period": "Jan 2022 – Aug 2023",
+    "role": "Full Stack Developer",
+    "description": [
+      "Directed the WapiDoc project in Next.js and Node.js, delivering a scalable product serving over 10,000 users.",
+      "Developed a real-time React dashboard with analytics, boosting user adoption by 25% through intuitive design and functionality.",
+      "Built a Node.js reporting tool with Node Mailer, improving user retention by 60% with automated monthly reports.",
+      "Implemented GraphQL APIs for efficient data querying, reducing response times and enhancing system performance."
+    ],
+    "technologies": ["Next.js", "Node.js", "GraphQL", "MongoDB", "Redis", "AWS"]
+  },
+  {
+    "company": "Tehy Care Group",
+    "period": "Jan 2021 – Dec 2021",
+    "role": "Full Stack Developer",
+    "description": [
+      "Designed a health management system in React.js and Django, boosting staff efficiency by 80% with streamlined workflows.",
+      "Reduced planning time by 30% by creating technical guidelines and development processes for faster project execution.",
+      "Ensured 100% compliance with UK GDPR and the Data Protection Act of 2018 through rigorous security measures.",
+      "Implemented secure authentication and authorization protocols to protect sensitive patient data and maintain system integrity."
+    ],
+    "technologies": [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "Pytest",
+      "HIPAA compliance tools"
+    ]
+  },
+  {
+    "company": "Webhost Kenya",
+    "period": "Jul 2019 – Jan 2021",
+    "role": "Web Developer",
+    "description": [
+      "Developed blueprints and delivered over 20 websites with an 80% client approval rating, meeting diverse business needs.",
+      "Implemented responsive designs and optimized websites for SEO and performance, ensuring cross-device compatibility and faster load times.",
+      "Created custom WordPress themes and plugins tailored to client-specific needs, enhancing functionality and user experience.",
+      "Provided technical support and maintenance for existing websites, ensuring smooth operation and client satisfaction."
+    ],
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "jQuery",
+      "CSS/SCSS"
+    ]
+  },
+  {
+    "company": "Wingu Communications",
+    "period": "Jan 2017 – Jun 2019",
+    "role": "Full Stack Developer",
+    "description": [
+      "Supported a Laravel-based school management system for 40+ schools, improving usability by 30% with intuitive features.",
+      "Reduced onboarding time by 60% through comprehensive documentation and training manuals for administrators and sales teams.",
+      "Developed a centralized reporting system for administrative oversight, enabling data-driven decision-making and improved efficiency.",
+      "Implemented automated testing suites for critical system components, ensuring reliability and reducing the risk of bugs."
+    ],
+    "technologies": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Vue.js",
+      "Bootstrap",
+      "GitLab CI"
+    ]
+  },
+  {
+    "company": "People & Strategy",
+    "period": "Jan 2015 – Dec 2016",
+    "role": "Web Developer (Part-Time)",
+    "description": [
+      "Built a recruitment portal hosting 1,200+ jobs, increasing visibility by 15% with advanced search and filtering options.",
+      "Implemented resumé parsing functionality and a dashboard for recruitment analytics, streamlining the hiring process for recruiters.",
+      "Integrated social media sharing, enabling job seekers to share openings across platforms and boosting engagement.",
+      "Developed search algorithms for efficient job matching, improving the accuracy and relevance of job recommendations."
+    ],
+    "technologies": [
+      "PHP",
+      "CodeIgniter",
+      "MySQL",
+      "JavaScript",
+      "jQuery",
+      "AJAX"
+    ]
+  },
+  {
+    "company": "BlackPoint Perfumes",
+    "period": "Aug 2013 – Jan 2015",
+    "role": "Web Developer (Part-Time)",
+    "description": [
+      "Revamped eCommerce UI/UX for 5,000+ users, increasing checkout rates by 20% with streamlined payment integrations.",
+      "Implemented an inventory management system with real-time updates, ensuring accurate product availability and reducing errors.",
+      "Developed an automated email marketing system for abandoned carts, recovering lost sales and improving conversion rates.",
+      "Created a product recommendation engine based on user behavior, enhancing personalization and driving higher sales."
+    ],
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "jQuery",
+      "HTML5",
+      "CSS3",
+      "Magento"
+    ]
+  }
+]
