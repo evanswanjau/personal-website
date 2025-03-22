@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import blogData from "@/db/blogs.json";
 import { BlogCard } from "@/components/BlogCard";
+import { SEO } from "@/components/SEO";
 
 interface BlogPost {
   title: string;
@@ -37,6 +38,14 @@ export const TagPage = () => {
       id="blogs"
       className="pt-32 pb-24 relative overflow-hidden font-outfit"
     >
+      <SEO
+        title="Projects"
+        description="Explore my diverse portfolio, showcasing a wide range of projects across various technologies and industries, highlighting innovative solutions and technical expertise."
+        keywords="portfolio, web development, software projects, innovative solutions, technical expertise, React, TypeScript, JavaScript, software engineering"
+        url="evanswanjau.vercel.app/projects"
+        image="https://evanswanjau.vercel.app/logo.png"
+      />
+
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -75,7 +84,8 @@ export const TagPage = () => {
         ) : (
           <div className="text-center py-12">
             <p className="text-xl text-gray-400">
-              No posts found with the tag <b className="text-gray-600">"{tag}"</b>
+              No posts found with the tag{" "}
+              <b className="text-gray-600">"{tag}"</b>
             </p>
             <a
               href="/blog"

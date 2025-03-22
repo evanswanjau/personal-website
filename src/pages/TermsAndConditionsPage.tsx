@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const TermsAndConditionsPage = () => {
   return (
@@ -8,6 +9,10 @@ const TermsAndConditionsPage = () => {
       transition={{ duration: 0.8 }}
       className="min-h-screen bg-gradient-to-b bg-white py-24"
     >
+      <Helmet>
+        <title>Terms and Conditions</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">
           Terms and Conditions

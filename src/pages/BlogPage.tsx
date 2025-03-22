@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import blogData from "@/db/blogs.json";
 import { BlogCard } from "@/components/BlogCard";
+import { SEO } from "@/components/SEO";
 
 interface BlogPost {
   title: string;
@@ -26,6 +27,14 @@ export const BlogPage = () => {
       id="blogs"
       className="pt-32 pb-24 relative overflow-hidden font-outfit"
     >
+      <SEO
+        title="Blog"
+        description="Explore insights on web development, software engineering, and tech trends with Evans Wanjau. Learn about coding, entrepreneurship, and the latest in digital innovation."
+        keywords="evans wanjau, web development, software engineering, coding, tech trends, digital innovation"
+        url="evanswanjau.vercel.app/blog"
+        image="https://evanswanjau.vercel.app/logo.png"
+      />
+
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

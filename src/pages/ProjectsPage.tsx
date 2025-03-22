@@ -34,6 +34,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import projectsData from "@/db/projects.json";
 import { ProjectCard } from "@/components/ProjectCard";
+import { SEO } from "@/components/SEO";
 
 const techIcons: { [key: string]: React.ReactElement } = {
   Vite: <SiVite />,
@@ -89,6 +90,14 @@ export const ProjectsPage = () => {
       id="projects"
       className="pt-32 pb-24 relative overflow-hidden bg-white"
     >
+      <SEO
+        title="Projects"
+        description="Explore my diverse portfolio, showcasing a wide range of projects across various technologies and industries, highlighting innovative solutions and technical expertise."
+        keywords="portfolio, web development, software projects, innovative solutions, technical expertise, React, TypeScript, JavaScript, software engineering"
+        url="evanswanjau.vercel.app/projects"
+        image="https://evanswanjau.vercel.app/logo.png"
+      />
+
       <div className="absolute top-0 left-0 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-100/20 rounded-full blur-3xl animate-pulse" />
 

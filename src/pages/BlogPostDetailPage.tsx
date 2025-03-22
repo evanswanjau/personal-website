@@ -6,6 +6,7 @@ import { FaTag } from "react-icons/fa";
 import blogData from "@/db/blogs.json";
 import { Badge } from "@/components/ui/badge";
 import { BlogCard } from "@/components/BlogCard";
+import { SEO } from "@/components/SEO";
 
 interface BlogPost {
   title: string;
@@ -69,6 +70,14 @@ const BlogPostDetail = () => {
 
   return (
     <div className="container mx-auto pt-32 pb-16">
+      <SEO
+        title={post.title}
+        description={post.desc}
+        keywords={post.tags.join(", ")}
+        url={`evanswanjau.vercel.app/+ ${slug}`}
+        image="https://evanswanjau.vercel.app/logo.png"
+      />
+
       <article className="prose prose-lg dark:prose-invert mx-auto max-w-6xl px-6">
         <h1 className="text-4xl font-bold mb-2 text-gray-800">{post.title}</h1>
         <p className="text-gray-500 mb-6">{post.date}</p>

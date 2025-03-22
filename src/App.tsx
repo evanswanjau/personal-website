@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import "./index.css";
 import { Header } from "@/components/Header";
 import { FooterSection } from "@/components/Footer";
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <Analytics />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
