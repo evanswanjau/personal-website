@@ -4,8 +4,8 @@ import { FaXTwitter } from "react-icons/fa6";
 export const FooterSection = () => {
   return (
     <footer className="py-12 text-center bg-white">
-      <div className="max-w-6xl mx-auto px-6 flex justify-between">
-        <p className="text-gray-400 text-sm flex justify-center space-x-8">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row space-y-6 justify-between">
+        <p className="text-gray-400 text-sm flex justify-between md:justify-center space-x-4 md:space-x-8">
           <span>© 2025 Evans Wanjau</span>
           <a
             href="/terms-and-conditions"
@@ -20,7 +20,7 @@ export const FooterSection = () => {
             Privacy Policy
           </a>
         </p>
-        <div className="flex justify-center gap-6 text-lg">
+        <div className="flex justify-center gap-10 md:gap-6 text-lg">
           <a
             href="https://github.com/evanswanjau"
             target="_blank"

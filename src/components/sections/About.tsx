@@ -5,13 +5,13 @@ const AboutSection = () => {
     <section id="about" className="py-24 bg-gray-50 relative">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
-          className="flex flex-col md:flex-row gap-16"
+          className="flex flex-col-reverse md:flex-row gap-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: "-100px" }}
         >
-          <div className="w-[70%]">
+          <div className="w-full md:w-[70%]">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -60,13 +60,13 @@ const AboutSection = () => {
           </div>
 
           <motion.div
-            className="w-[30%] flex items-center"
+            className="w-full md:w-[30%] flex items-center justify-center"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <img src="/image.png" className="rounded-full w-full bg-cover" />
+            <img src="/image.png" className="rounded-full w-3/4 bg-cover" />
           </motion.div>
         </motion.div>
       </div>
