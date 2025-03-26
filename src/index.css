@@ -124,7 +124,7 @@ p,
 a,
 li,
 button,
-span {
+span, label, input, select, textarea {
   font-family: "Outfit", sans-serif;
 }
 
