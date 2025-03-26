@@ -30,7 +30,12 @@ export const BlogCard = ({ post }: BlogCardProps) => {
       transition={{ duration: 0.3 }}
       className="group pb-8 hover:border-gray-900 flex flex-col h-full"
     >
-      <a href={post.link} className="flex flex-col h-full">
+      <div
+        className="flex flex-col h-full cursor-pointer"
+        onClick={() => {
+          window.location.href = post.link;
+        }}
+      >
         <div className="flex items-center gap-2 mb-2">
           <FaCalendarAlt className="text-gray-500 text-sm" />
           <span className="text-sm text-gray-500">{post.date}</span>
@@ -61,7 +66,7 @@ export const BlogCard = ({ post }: BlogCardProps) => {
             <FaArrowRight className="ml-2 h-4 w-4" />
           </div>
         </div>
-      </a>
+      </div>
     </motion.div>
   );
 };
