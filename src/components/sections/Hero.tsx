@@ -60,7 +60,7 @@ export const HeroSection = () => {
             >
               <a href="#projects">View My Work</a>
             </Button>
-            <Button
+            {/* <Button
               variant="outline"
               asChild
               className="border-gray-900 text-gray-800 hover:bg-gray-900 hover:text-white transition-all delay-200 p-5 px-5 shadow-none"
@@ -68,7 +68,7 @@ export const HeroSection = () => {
               <a href="/Evans-Wanjau-CV.pdf" download>
                 Download CV
               </a>
-            </Button>
+            </Button> */}
           </motion.div>
 
           <motion.div
